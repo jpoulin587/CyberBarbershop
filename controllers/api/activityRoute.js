@@ -1,8 +1,8 @@
-const router = require("express").Router();
-const { Activity, User, Service } = require("../../models");
-const withAuth = require("../../utils/auth");
+const router = require('express').Router();
+const { Activity, User, Service } = require('../../models');
+const withAuth = require('../../utils/auth');
 
-router.get("/", async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const userData = await Activity.findAll({
       // TODO joining logic goes here.
