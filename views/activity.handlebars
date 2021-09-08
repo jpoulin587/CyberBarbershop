@@ -1,0 +1,47 @@
+<div class="col-md-6">
+    <h2>Record new Activity</h2>
+
+    <form class="form activity-form">
+      <div class="form-group">
+        <label for="service-name-activity">Select Service:</label>
+        <select id="service-activity">
+            {{#each services as |service|}}
+            <option value="{{id}}">{{service_name}}</option>
+            {{/each}}
+        </select>
+        
+      </div>
+      <div class="form-group">
+        <label for="last-name-activity">Select user: </label>
+      <select id="user-activity">
+        {{#each users as |user|}}
+            <option  value="{{id}}">{{last_name}}</option>
+        {{/each}}
+        </select>
+        </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">submit</button>
+      </div>
+    </form>
+  </div>
+
+
+
+
+<div class="row">
+  {{#each reports as |report|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <p> *  {{user.first_name}} {{user.last_name}}   / Service: {{service.service_name}} ${{service.price}} on {{format_date createdAt}}</p>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger delete-button" id={{id}}>DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+</div>
+
+
+
+
+<script src="/js/report.js"></script>

@@ -1,0 +1,22 @@
+[
+    {
+      "service_name": "Men's cut",
+      "price": 20.00
+    },
+    {
+        "service_name": "Women's cut",
+        "price": 30.00
+      },
+      {
+        "service_name": "Hair color",
+        "price": 35.00
+      },
+      {
+        "service_name": "Buzz cut",
+        "price": 15.00
+      },
+      {
+        "service_name": "Curl and color",
+        "price": 50.00
+      }
+]

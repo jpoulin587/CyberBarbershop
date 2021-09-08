@@ -1,0 +1,52 @@
+<div class="row">
+  
+   
+  <div class="col-md-6">
+    <h2>Create New User</h2>
+
+    <form class="form signup-form">
+      <div class="form-group">
+        <label for="first-name-signup">First name:</label>
+        <input class="form-input" type="text" id="first-name-signup" />
+      </div>
+      <div class="form-group">
+        <label for="last-name-signup">Last name:</label>
+        <input class="form-input" type="text" id="last-name-signup" />
+      </div>
+      <div class="form-group">
+        <label for="email-signup">email:</label>
+        <input class="form-input" type="text" id="email-signup" />
+      </div>
+      <div class="form-group">
+        <label for="password-signup">password:</label>
+        <input class="form-input" type="password" id="password-signup" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">signup</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{{#if users.length}}
+  <div class="col-md-6 user-list">
+    <h3>Current Users:</h3>
+
+    {{#each users as |user|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/project/{{user.id}}">{{user.first_name}} {{user.last_name}} <br> {{user.email}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{user.id}}">DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
+
+
+<script src="/js/user.js"></script> 
+

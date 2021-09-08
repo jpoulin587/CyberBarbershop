@@ -1,0 +1,14 @@
+
+{{#if logged_in}}
+
+<h2>Select from the menu below</h2>
+
+<a href="/api/manageusers" class="btn btn-primary" >Manage Users</a>
+<a href="/services" class="btn btn-primary">Manage Services</a>
+<a href="/api/reports" class="btn btn-primary">Enter Activity</a>
+
+{{else}}
+
+<h3> User is not logged in.  Click the log in button above.</h3>
+
+{{/if}}
