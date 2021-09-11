@@ -1,7 +1,9 @@
 # Manage Your Barber Shop
 
 ## Description
-This app will help a barber shop owner manage the staff, services, and record activity for the shop.
+This demonstration app will help a barber shop owner manage the staff, services, and record activity for the shop.
+
+It uses Mysql, Express, Handlebars, Bcrypt technologies.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,7 +17,7 @@ This app will help a barber shop owner manage the staff, services, and record ac
 
 
 ## Installation
-You can activate this app by Follow the heroky link in the deply section.
+You can activate this app by Follow the heroku link in the deploy section.
 
 ## Usage
 You can make use of this app by following these directions:  None.  It's a web app 
@@ -48,3 +50,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Deployed app
 
 https://barber-shop55.herokuapp.com/
+
+To log into the demo app:
+User: peter@mail.com
+password: "password"
