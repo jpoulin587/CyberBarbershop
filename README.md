@@ -49,7 +49,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Deployed app
 
-https://barber-shop55.herokuapp.com/
+https://cyberbarbershop.herokuapp.com/
 
 To log into the demo app:\
 User: peter@mail.com\
