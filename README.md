@@ -5,6 +5,9 @@ This demonstration app will help a barber shop owner manage the staff, services,
 
 It uses Mysql, Express, Handlebars, Bcrypt technologies.
 
+![screen shot of the manage service page](./images/screenshot.png)
+
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
