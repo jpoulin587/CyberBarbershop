@@ -20,14 +20,14 @@ It uses Mysql, Express, Handlebars, Bcrypt technologies.
 
 
 ## Installation
-You can activate this app by Follow the heroku link in the deploy section.
+You can activate this app by following the Heroku link in the deploy section.
 
 ## Usage
 You can make use of this app by following these directions:  None.  It's a web app 
 
 ## Contributing
 You can find this project on GitHub at the following link:
-https://github.com/trunks-py/Barber-shop
+https://github.com/jpoulin587/CyberBarbershop
 
 1. Fork the Project
 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
@@ -39,7 +39,7 @@ These steps are unique to this project:
 send an email
 
 ## Questions
-If you have any questions or comments about this app please send me an email at: jpoulin587a@gmail.com  or salvador_______@______.com 
+If you have any questions or comments about this app please send me an email at: jpoulin587a@gmail.com 
 
 ## License 
 Copyright (C) 2021  
