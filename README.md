@@ -1,7 +1,7 @@
 # Manage Your Barber Shop
 
 ## Description
-This demonstration app will help a barber shop owner manage the staff, services, and record activity for the shop.
+This full stack demonstration app will help a barber shop owner manage the staff, services, and record activity for the shop.
 
 It uses Mysql, Express, Handlebars, Bcrypt technologies.
 
