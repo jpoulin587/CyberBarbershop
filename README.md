@@ -57,3 +57,5 @@ https://cyberbarbershop.herokuapp.com/
 To log into the demo app:\
 User: peter@mail.com\
 password: "password"
+
+ghg
